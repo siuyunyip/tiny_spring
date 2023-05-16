@@ -1,5 +1,5 @@
 ### Class Relationships
-BeanDefinition <--depend-- BeanFactory <--use-- UserServiceTest
+BeanDefinition <--use-- BeanFactory <--use-- UserServiceTest
 
 ### Implementation
 ConcurrentHashMap as the dedicated container for storing beans

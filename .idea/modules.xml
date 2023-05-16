@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/bean-02/bean.iml" filepath="$PROJECT_DIR$/bean-02/bean.iml" />
       <module fileurl="file://$PROJECT_DIR$/bean-01/bean-01.iml" filepath="$PROJECT_DIR$/bean-01/bean-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bean-02/bean-02.iml" filepath="$PROJECT_DIR$/bean-02/bean-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/tiny_spring.iml" filepath="$PROJECT_DIR$/.idea/tiny_spring.iml" />
     </modules>
   </component>
