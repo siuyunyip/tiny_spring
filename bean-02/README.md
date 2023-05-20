@@ -15,3 +15,10 @@ There are two functions in `DefaultListableBeanFactory`, one is the `getBeanDefi
 ### Workflow of getBean
 
 The bean is not instantiated in the process of registry, but created when it is called at the first time. This method is implemented in `AbstractBeanFactory` class, and it will call `getBeanDefinition` and `createBean` functions defined in its child class. It gets bean definition from the container in `DefaultListableBeanFactory`, and invoke `createBean` in `AbstractAutowireCapableBeanFactory`.
+
+
+
+### Flaws
+
+When the bean is instantiated, `beanDefinition.getBeanClass().newInstance();` is used, but what if the bean object had its own constructor?
+

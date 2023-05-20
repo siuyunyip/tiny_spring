@@ -7,3 +7,5 @@ A journey of learning and understanding the concept, design pattern, and impleme
 
 - Template method
   - AbstractBeanFactory
+- Strategy
+  - InstantiationStrategy
